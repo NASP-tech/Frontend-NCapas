@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/login.css">
+    <title>Subjects</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <form method="post" action="index.html">
+                <img clas="box" src="/img/login.jpg" width="200px" />
+                <div class="box">
+                    <input type="text" name="subject" placeholder="Nombre Materia"
+                        onFocus="field_focus(this, 'subject');" onblur="field_blur(this, 'subject');" class="carnet" />
+                    <label>Catedrático que agregara o editara</label>
+                    <input type="text" name="professor" placeholder="Nombre Catedrático"
+                        onFocus="field_focus(this, 'professor');" onblur="field_blur(this, 'professor');"
+                        class="carnet" />
+                    <div>
+                        <a href="#">
+                            <div class="box2">Editar Catedratico</div>
+                        </a> <!-- End Btn -->
+                    </div>
+                </div> <!-- End Box -->
+                <div class="box">
+                    <label>Evaluación que Agregara</label>
+                    <input type="text" name="assessment" placeholder="Nombre Evaluación"
+                        onFocus="field_focus(this, 'assessment');" onblur="field_blur(this, 'assessment');"
+                        class="carnet" />
+                    <input type="text" name="percentage" placeholder="Porcentaje Evaluación"
+                        onFocus="field_focus(this, 'percentage');" onblur="field_blur(this, 'percentage');"
+                        class="carnet" />
+                    <input type="date" name="date" placeholder="Fecha"
+                        onFocus="field_focus(this, 'date');" onblur="field_blur(this, 'date');"
+                        class="carnet" />
+                    <div>
+                        <a href="#">
+                            <div class="box2">Agregar Evaluación</div>
+                        </a> <!-- End Btn -->
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div>
+        <a href="mainPage.html">Regresar al Inicio</a>
+    </div>
+
+</body>
+
+</html>

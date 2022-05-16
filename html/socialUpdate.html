@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/login.css">
+    <title>Social Hours</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <form method="post" action="index.html">
+            <img clas="box" src="/img/schedule.jpg" width="200px" />
+            <div class="box">
+                <input type="number" name="internal" placeholder="Horas Sociales Internas"
+                    onFocus="field_focus(this, 'internal');" onblur="field_blur(this, 'internal');" class="carnet" />
+                <a href="socialUpdateSuccess.html">
+                    <div class="box1">ACTUALIZAR HORAS INTERNAS</div>
+                </a>
+                <input type="number" name="external" placeholder="Horas Sociales Externas"
+                    onFocus="field_focus(this, 'external');" onblur="field_blur(this, 'external');" class="carnet" />
+                <a href="socialUpdateSuccess.html">
+                    <div class="box1">ACTUALIZAR HORAS EXTERNAS</div>
+                </a>
+            </div> <!-- End Box -->
+        </form>
+
+        <div>
+            <div>
+                <a href="mainPage.html">Regresar al Inicio</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

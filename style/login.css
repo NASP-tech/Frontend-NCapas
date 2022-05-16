@@ -22,10 +22,10 @@ body{
   border-radius:6px;
   margin: 0 auto 0 auto;
   padding:0px 0px 70px 0px;
-  
+  margin-top: 50px;
 }
 
-a { text-decoration: none; 
+a, label{ text-decoration: none; 
 margin-top: 60px;
 padding-top: 50px;
 color: #9fafc1;
@@ -40,8 +40,16 @@ line-height: 20pt;
   margin: 0 auto 0 auto;
   color: black;
   margin-top: 2px;
- 
-  
+}
+
+.box2{
+  background:#29323d;
+  justify-content: center;
+  width: 270px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  color: white;
+  margin-top: 50px;
 }
 
 .carnet{
