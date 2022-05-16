@@ -92,8 +92,49 @@ line-height: 20pt;
   width:250px;
   font-size:1em;
 }
+body {
+  margin: 0;
+  padding: 0;
+ 
+}
 
+.nav ul {
+  border: 0.5px solid black;
+  border-radius:0.5px;
+  background-color: #a2aec2;
+  padding: 0px;
+  margin: 0;
+  height: 50px;
+  padding-top: 10px;
+  
+}
 
+ 
+.nav a {
+  color: #fff;
+  height: 20px;
+  width: 300px;
+  padding: 15%;
+  
+  
+}
+ 
+.nav a:hover {
+  background-color:rgb(255, 255, 255);
+  color: #29323d;
+}
+ 
 
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 16.41%;
+    font-size: 1.4em;
+  }
 
+  .nav li {
+    display: inline-block;
 
+  }
+ 
+}
