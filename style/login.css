@@ -147,7 +147,7 @@ body {
   width: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
 }
 
 .tabla2 {
@@ -156,9 +156,10 @@ body {
   border: 1px solid rgb(0, 0, 0);
   position:absolute;
   width: 50%;
-  top: 100%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 100%);
+  margin-bottom: 25px;
 }
 
 th, td {
@@ -175,4 +176,31 @@ th, td {
 
 .colordiv{
   color:#445264;
+}
+
+.posicion1{
+  transform: translate(0, 10%);
+}
+.posicion{
+  transform: translate(0, 1800%);
+}
+
+.tabla3{
+  padding-top: 100px;
+  margin-top: 100px;
+  top: 60%;
+  left: 50%;
+  
+}
+
+.position3{
+  transform: translate(0, 260%);
+}
+
+.position4{
+  transform: translate(0, 1000%);
+}
+
+.position5{
+  transform: translate(0, 1050%);
 }
