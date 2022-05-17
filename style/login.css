@@ -139,14 +139,24 @@ body {
  
 }
 
-table {
+.tabla {
 
- 
   border-collapse: collapse;
   border: 1px solid rgb(0, 0, 0);
-  position: absolute;
+  position:absolute;
   width: 50%;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tabla2 {
+
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0);
+  position:absolute;
+  width: 50%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -160,5 +170,9 @@ th, td {
 }
 
 .down{
- padding-top: 30%;
+  padding-top: 30%;
+}
+
+.colordiv{
+  color:#445264;
 }
