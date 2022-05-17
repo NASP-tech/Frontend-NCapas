@@ -23,8 +23,80 @@
         </div>
     </header>
 
-    <div>
-        <h1>Ingresaste a Materias Disponibles</h1>
+    <div class="box">
+        <div>
+            <h4 class="colordiv">
+                Estas son las materias que puedes inscribir
+            </h4>
+            <img src="/img/subjects.jpg" width=50px />
+        </div>
+
+        <div>
+            <table class="tabla" border="1px">
+
+                <tr>
+                    <td bgcolor="#e5e5e5"> Nombre de la materia</td>
+                    <td bgcolor="#e5e5e5"> UV's </td>
+                    <td bgcolor="#e5e5e5"> Prerequisito </td>
+                </tr>
+                <tr>
+                    <td>
+                        Física I
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        5, 6
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Programación de Estructuras Dinámicas
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        3, 4
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Matemática Discreta
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        3
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cálculo I
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        1
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    <div class="box">
+        <form>
+            <div class="position5">
+                <input type="materia" name="materia" placeholder="Nombre Materia" onFocus="field_focus(this, 'materia');" onblur="field_blur(this, 'materia');" class="materia" />
+            </div> <!-- End Box -->
+        </form>
+        <div class="position6">
+            <a href="#">
+                <div class="btn2">Agregar Ciclo</div>
+            </a> <!-- End Btn -->
+        </div>
     </div>
 
 

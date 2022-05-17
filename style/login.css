@@ -204,3 +204,16 @@ th, td {
 .position5{
   transform: translate(0, 1050%);
 }
+
+.position6{
+  transform: translate(0, 1500%);
+}
+
+.materia{
+  background:#ecf0f1;
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+}
