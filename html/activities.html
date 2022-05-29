@@ -8,29 +8,35 @@
     <title>Actividades</title>
 </head>
 <body>
-    <header class="nav2">
-        <div class="nav">
-          <ul>
-            <li class="Miproceso"><a href="#">Mi Proceso</a></li>
-            <li class="Miciclo"><a href="#">Mi ciclo</a></li>
-            <li class="CalcularNota"><a href="#">Calcular Notas</a></li>
-            <li class="VerMaterias"><a href="#">Materias Habiles</a></li>
-            <li class="MisActividades"><a href="#">Actividades</a></li>
-            <li class="Salir"><a href="#">Salir</a></li>
-          </ul>
+    <header >
+      
+        <div class="topnav" id="myTopnav">
+            <a href="mainPage.html">Mi Proceso</a>
+            <a href="semester.html">Mi ciclo</a>
+            <a href="calculateScore.html">Calcular Notas</a>
+            <a href="availableSubjects.html">Materias Habiles</a>
+            <a href="activities.html">Actividades</a>
+            <a href="login.html">Salir</a>
         </div>
-      </header>
+    </header>
+    
 
-      <div>
-        <h2 class="padding">
+      <div class="padding">
+          <div>
+                <h2 >
             ESTAS SON TUS ACTIVIDADES 
-
         </h2>
-        <img src="/img/activities.jpg" width=50px/>
+
+          </div>
+      
+        <div>
+            <img src="/img/activities.jpg" width=50px/>
+        </div>
+        
       </div>
 
-    <div>
-        <table class="tabla" border="1px" class="tabla2" >
+    <div> 
+        <table border="1px" class="tablaActivities">
 
             <tr>
             <td bgcolor="#e5e5e5" > Nombre de la actividad</td>
@@ -52,14 +58,19 @@
                 <td>Descripcion</td>
                 <td> <label><input type="checkbox" id="cbox1" value="first_checkbox"></label><br> </td>
             </tr>
-   
+
+        </table>
     </div>
 
-    <div class="down">
-        <a href="#"><div class="btn2">AGREGAR ACTIVIDAD</div></a> <!-- End Btn -->
+    
+    <div>
+        <a href="#">
+            <div class="btn2">AGREGAR ACTIVIDAD</div>
+        </a> <!-- End Btn -->
     </div>
 
     
 </body>
+
 
 </html>
